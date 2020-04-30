@@ -94,6 +94,7 @@ footer > a.google:hover{background: url(../images/social_b_twitter.png) no-repea
 #container .content:nth-of-type(3){transition-delay: .6s;}
 #container .content:nth-of-type(4){transition-delay: .8s;}
 #container.start .content{top:0;}
+
 .pargrph_tit{margin-bottom: 50px; font-size: 24px; color:#fff; position: relative; padding: 0px;}
 .pargrph_tit:after{content:""; display:block; width:30px;height:8px;background:#ed3140;position: absolute; left:0;bottom:-10px;}
 .text_box{position:relative;}
@@ -103,3 +104,8 @@ footer > a.google:hover{background: url(../images/social_b_twitter.png) no-repea
 .text_box:nth-child(even){text-align:right;}
 .text_box:nth-child(1):after{content:"";display:block; width: 206px; height:100%; position: absolute;right:0;top:0;background: url(../images/content_img1.png)no-repeat right top; background-size: 206px auto;}
 .text_box:nth-child(1) p{width:100%; padding-right:206px;}
+.text_box:nth-last-child(1)::before{content:""; display: block; width: 150px; height: 250px; position: absolute; left: 0; top: 70px; background:url(../images/content_img2.png) no-repeat right top; background-size: 150px;}
+.text_box:nth-last-child(1)::after{content:""; display: block; width: 170px; height: 280px; position: absolute; right: 0; top: -20px; background:url(../images/content_img3.png) no-repeat right top; background-size: 170px;}
+.text_box:nth-last-child(1) p{padding:0 200px 0 280px;}
+.text_box:nth-last-child(1) h4{color:#ed3140;}
+
